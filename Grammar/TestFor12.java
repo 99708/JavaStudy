@@ -1,6 +1,7 @@
-public class TestHello{
-	public static void main(String[] args) {
-		int size = 7;
+public class TestFor12{
+	public static void main(String[] args){
+		
+		int size=9;
 		int center = size/2 + 1;
 		int start = center;
 		int end = center;
@@ -8,16 +9,16 @@ public class TestHello{
 		
 		for(int i=1; i<=size; i++){
 			for(int j=1; j<=size; j++){
-				if(j>=start && j<=end){
+				if(j<=end && j>=start){
 					System.out.print("*");
 				}else{
 					System.out.print(" ");
 				}
 			}
-			System.out.println();
-			if(end-start+1 == size){
+			if((end-start+1 == size)){
 				flag = false;
 			}
+			
 			if(flag){
 				start--;
 				end++;
@@ -25,8 +26,8 @@ public class TestHello{
 				start++;
 				end--;
 			}
-			
+			System.out.println();
 		}
-		
+	
 	}
 }
