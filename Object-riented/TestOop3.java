@@ -1,3 +1,8 @@
+/**
+*	this¹Ø¼ü×Ö
+*
+*/
+
 public class TestOop3{
 	public static void main(String[] args){
 		Person person = new Person(23, "z3", 190.8);

@@ -1,3 +1,8 @@
+/**
+*	ÄÚ´æ·ÖÎö3
+*
+*/
+
 public class DemoMemory {
     public static void main(String[] args) {
 		DemoMemory t=new DemoMemory();
