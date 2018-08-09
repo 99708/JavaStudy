@@ -1,0 +1,20 @@
+public class Demo{
+	private final static String A;
+	private Object o;
+	public Demo(Object o){
+		this.o = o;
+		String s;
+		int i;
+		
+	}
+	/**
+		nihao
+	*/
+	//nihao
+	/*nihao */
+	public static void main(String[] args){
+		//nihoa 
+		/*你好*/
+		
+	}
+}

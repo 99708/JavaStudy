@@ -1,0 +1,22 @@
+package com.xyq.test;
+
+public class Test{
+	private final static String A;
+	private Object o;
+	public Test(Object o){
+		this.o = o;
+		String s;
+		int i;
+		
+	}
+	/**
+		nihao
+	*/
+	//nihao
+	/*nihao */
+	public static void main(String[] args){
+		//nihoa 
+		/*你好*/
+		
+	}
+}
